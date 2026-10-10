@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="29" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[User logged in successfully with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Product page opened successfully]]>
+    </line>
+    <line>
+      <![CDATA[Sorting option selected: Name (A to Z)]]>
+    </line>
+    <line>
+      <![CDATA[Sorting option selected: Name (Z to A)]]>
+    </line>
+    <line>
+      <![CDATA[Sorting option selected: Price (low to high)]]>
+    </line>
+    <line>
+      <![CDATA[Sorting option selected: Price (high to low)]]>
+    </line>
+    <line>
+      <![CDATA[All sorting options are available and selected successfully]]>
+    </line>
+    <line>
+      <![CDATA[User successfully selected a product]]>
+    </line>
+    <line>
+      <![CDATA[User successfully opened the cart]]>
+    </line>
+    <line>
+      <![CDATA[User options menu opened successfully]]>
+    </line>
+    <line>
+      <![CDATA[User options are displayed correctly]]>
+    </line>
+    <line>
+      <![CDATA[User didn't logged in with invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Products sorted successfully using: Name (A to Z)]]>
+    </line>
+    <line>
+      <![CDATA[Products sorted successfully using: Name (Z to A)]]>
+    </line>
+    <line>
+      <![CDATA[Products sorted successfully using: Price (low to high)]]>
+    </line>
+    <line>
+      <![CDATA[Products sorted successfully using: Price (high to low)]]>
+    </line>
+    <line>
+      <![CDATA[Products sorted successfully from Price low to high]]>
+    </line>
+    <line>
+      <![CDATA[Product added successfully to the cart]]>
+    </line>
+    <line>
+      <![CDATA[Required checkout details entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[User successfully accessed the About option]]>
+    </line>
+    <line>
+      <![CDATA[User successfully logged out]]>
+    </line>
+    <line>
+      <![CDATA[User logged in and product page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[User successfully viewed products and sorted them]]>
+    </line>
+    <line>
+      <![CDATA[Product catalog is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Product added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Product catalog works correctly with shopping flow]]>
+    </line>
+    <line>
+      <![CDATA[Complete purchase flow reached checkout overview successfully]]>
+    </line>
+    <line>
+      <![CDATA[Order placed successfully and confirmation message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[User successfully logged in]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated to user options menu]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated to All Items page]]>
+    </line>
+    <line>
+      <![CDATA[Products sorted by price from low to high]]>
+    </line>
+    <line>
+      <![CDATA[Product successfully added to cart after sorting]]>
+    </line>
+    <line>
+      <![CDATA[Products sorted by name from Z to A]]>
+    </line>
+    <line>
+      <![CDATA[Product successfully added to cart after sorting]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated from login to product and cart]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated from cart to checkout]]>
+    </line>
+    <line>
+      <![CDATA[User successfully navigated from user options to product and cart]]>
+    </line>
+    <line>
+      <![CDATA[User successfully logged out]]>
+    </line>
+    <line>
+      <![CDATA[User successfully logged in again]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-08T23:24:31 IST" name="Batch Test Suite" finished-at="2026-10-08T23:24:31 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Batch Test Suite -->
+  <suite started-at="2026-10-08T23:22:07 IST" name="Smoke Test Suite" finished-at="2026-10-08T23:22:33 IST" duration-ms="26064">
+    <groups>
+      <group name="Pos">
+        <method signature="OpenCart_Test.openCart_Test()[pri:0, instance:ecom.SwagLabs.Cart.OpenCart_Test@4550bb58]" name="openCart_Test" class="ecom.SwagLabs.Cart.OpenCart_Test"/>
+        <method signature="SelectProduct_Test.selectProduct_Test()[pri:0, instance:ecom.SwagLabs.Cart.SelectProduct_Test@6adbc9d]" name="selectProduct_Test" class="ecom.SwagLabs.Cart.SelectProduct_Test"/>
+        <method signature="UserLoginWithValidCredentials_Test.userLoginWithValidCredentials_Test(java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Login.UserLoginWithValidCredentials_Test@77847718]" name="userLoginWithValidCredentials_Test" class="ecom.SwagLabs.Login.UserLoginWithValidCredentials_Test"/>
+        <method signature="ProductPageOpen_Test.productPageOpen_Test(java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductPageOpen_Test@1623b78d]" name="productPageOpen_Test" class="ecom.SwagLabs.Product.ProductPageOpen_Test"/>
+        <method signature="ProductSortingOption_Test.productSortingOption_Test()[pri:0, instance:ecom.SwagLabs.Product.ProductSortingOption_Test@c8c12ac]" name="productSortingOption_Test" class="ecom.SwagLabs.Product.ProductSortingOption_Test"/>
+        <method signature="OpenUserOptions_Test.openUserOptions_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.OpenUserOptions_Test@4ec4f3a0]" name="openUserOptions_Test" class="ecom.SwagLabs.UserOptions.OpenUserOptions_Test"/>
+        <method signature="UserOptionsDisplayed_Test.userOptionsDisplayed_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsDisplayed_Test@223191a6]" name="userOptionsDisplayed_Test" class="ecom.SwagLabs.UserOptions.UserOptionsDisplayed_Test"/>
+      </group> <!-- Pos -->
+      <group name="SmT">
+        <method signature="OpenCart_Test.openCart_Test()[pri:0, instance:ecom.SwagLabs.Cart.OpenCart_Test@4550bb58]" name="openCart_Test" class="ecom.SwagLabs.Cart.OpenCart_Test"/>
+        <method signature="SelectProduct_Test.selectProduct_Test()[pri:0, instance:ecom.SwagLabs.Cart.SelectProduct_Test@6adbc9d]" name="selectProduct_Test" class="ecom.SwagLabs.Cart.SelectProduct_Test"/>
+        <method signature="UserLoginWithValidCredentials_Test.userLoginWithValidCredentials_Test(java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Login.UserLoginWithValidCredentials_Test@77847718]" name="userLoginWithValidCredentials_Test" class="ecom.SwagLabs.Login.UserLoginWithValidCredentials_Test"/>
+        <method signature="ProductPageOpen_Test.productPageOpen_Test(java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductPageOpen_Test@1623b78d]" name="productPageOpen_Test" class="ecom.SwagLabs.Product.ProductPageOpen_Test"/>
+        <method signature="ProductSortingOption_Test.productSortingOption_Test()[pri:0, instance:ecom.SwagLabs.Product.ProductSortingOption_Test@c8c12ac]" name="productSortingOption_Test" class="ecom.SwagLabs.Product.ProductSortingOption_Test"/>
+        <method signature="OpenUserOptions_Test.openUserOptions_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.OpenUserOptions_Test@4ec4f3a0]" name="openUserOptions_Test" class="ecom.SwagLabs.UserOptions.OpenUserOptions_Test"/>
+        <method signature="UserOptionsDisplayed_Test.userOptionsDisplayed_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsDisplayed_Test@223191a6]" name="userOptionsDisplayed_Test" class="ecom.SwagLabs.UserOptions.UserOptionsDisplayed_Test"/>
+      </group> <!-- SmT -->
+    </groups>
+    <test started-at="2026-10-08T23:22:07 IST" name="Smoke Tests" finished-at="2026-10-08T23:22:33 IST" duration-ms="26064">
+      <class name="ecom.SwagLabs.Cart.SelectProduct_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.SelectProduct_Test@6adbc9d]" started-at="2026-10-08T23:22:19 IST" name="launchBrowser" finished-at="2026-10-08T23:22:21 IST" duration-ms="1798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="selectProduct_Test()[pri:0, instance:ecom.SwagLabs.Cart.SelectProduct_Test@6adbc9d]" started-at="2026-10-08T23:22:21 IST" name="selectProduct_Test" finished-at="2026-10-08T23:22:23 IST" duration-ms="2185" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User successfully selected a product]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectProduct_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Cart.SelectProduct_Test@6adbc9d]" started-at="2026-10-08T23:22:23 IST" name="closeBrowser" finished-at="2026-10-08T23:22:23 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Cart.SelectProduct_Test -->
+      <class name="ecom.SwagLabs.Login.UserLoginWithValidCredentials_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Login.UserLoginWithValidCredentials_Test@77847718]" started-at="2026-10-08T23:22:07 IST" name="launchBrowser" finished-at="2026-10-08T23:22:11 IST" duration-ms="3563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="userLoginWithValidCredentials_Test(java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Login.UserLoginWithValidCredentials_Test@77847718]" started-at="2026-10-08T23:22:11 IST" name="userLoginWithValidCredentials_Test" data-provider="loginData" finished-at="2026-10-08T23:22:12 IST" duration-ms="726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully with valid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userLoginWithValidCredentials_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Login.UserLoginWithValidCredentials_Test@77847718]" started-at="2026-10-08T23:22:12 IST" name="closeBrowser" finished-at="2026-10-08T23:22:12 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Login.UserLoginWithValidCredentials_Test -->
+      <class name="ecom.SwagLabs.UserOptions.UserOptionsDisplayed_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsDisplayed_Test@223191a6]" started-at="2026-10-08T23:22:30 IST" name="launchBrowser" finished-at="2026-10-08T23:22:32 IST" duration-ms="2116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="userOptionsDisplayed_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsDisplayed_Test@223191a6]" started-at="2026-10-08T23:22:32 IST" name="userOptionsDisplayed_Test" finished-at="2026-10-08T23:22:33 IST" duration-ms="1177" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User options are displayed correctly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userOptionsDisplayed_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsDisplayed_Test@223191a6]" started-at="2026-10-08T23:22:33 IST" name="closeBrowser" finished-at="2026-10-08T23:22:33 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.UserOptions.UserOptionsDisplayed_Test -->
+      <class name="ecom.SwagLabs.Cart.OpenCart_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.OpenCart_Test@4550bb58]" started-at="2026-10-08T23:22:23 IST" name="launchBrowser" finished-at="2026-10-08T23:22:25 IST" duration-ms="1855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="openCart_Test()[pri:0, instance:ecom.SwagLabs.Cart.OpenCart_Test@4550bb58]" started-at="2026-10-08T23:22:25 IST" name="openCart_Test" finished-at="2026-10-08T23:22:26 IST" duration-ms="858" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User successfully opened the cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openCart_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Cart.OpenCart_Test@4550bb58]" started-at="2026-10-08T23:22:26 IST" name="closeBrowser" finished-at="2026-10-08T23:22:26 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Cart.OpenCart_Test -->
+      <class name="ecom.SwagLabs.Product.ProductSortingOption_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductSortingOption_Test@c8c12ac]" started-at="2026-10-08T23:22:15 IST" name="launchBrowser" finished-at="2026-10-08T23:22:17 IST" duration-ms="1823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="productSortingOption_Test()[pri:0, instance:ecom.SwagLabs.Product.ProductSortingOption_Test@c8c12ac]" started-at="2026-10-08T23:22:17 IST" name="productSortingOption_Test" finished-at="2026-10-08T23:22:19 IST" duration-ms="1982" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sorting option selected: Name (A to Z)]]>
+            </line>
+            <line>
+              <![CDATA[Sorting option selected: Name (Z to A)]]>
+            </line>
+            <line>
+              <![CDATA[Sorting option selected: Price (low to high)]]>
+            </line>
+            <line>
+              <![CDATA[Sorting option selected: Price (high to low)]]>
+            </line>
+            <line>
+              <![CDATA[All sorting options are available and selected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productSortingOption_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Product.ProductSortingOption_Test@c8c12ac]" started-at="2026-10-08T23:22:19 IST" name="closeBrowser" finished-at="2026-10-08T23:22:19 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Product.ProductSortingOption_Test -->
+      <class name="ecom.SwagLabs.UserOptions.OpenUserOptions_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.UserOptions.OpenUserOptions_Test@4ec4f3a0]" started-at="2026-10-08T23:22:26 IST" name="launchBrowser" finished-at="2026-10-08T23:22:28 IST" duration-ms="1948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="openUserOptions_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.OpenUserOptions_Test@4ec4f3a0]" started-at="2026-10-08T23:22:28 IST" name="openUserOptions_Test" finished-at="2026-10-08T23:22:29 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User options menu opened successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openUserOptions_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.UserOptions.OpenUserOptions_Test@4ec4f3a0]" started-at="2026-10-08T23:22:29 IST" name="closeBrowser" finished-at="2026-10-08T23:22:30 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.UserOptions.OpenUserOptions_Test -->
+      <class name="ecom.SwagLabs.Product.ProductPageOpen_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductPageOpen_Test@1623b78d]" started-at="2026-10-08T23:22:12 IST" name="launchBrowser" finished-at="2026-10-08T23:22:14 IST" duration-ms="1882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="productPageOpen_Test(java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductPageOpen_Test@1623b78d]" started-at="2026-10-08T23:22:14 IST" name="productPageOpen_Test" data-provider="productPageData" finished-at="2026-10-08T23:22:15 IST" duration-ms="710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Product page opened successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productPageOpen_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Product.ProductPageOpen_Test@1623b78d]" started-at="2026-10-08T23:22:15 IST" name="closeBrowser" finished-at="2026-10-08T23:22:15 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Product.ProductPageOpen_Test -->
+    </test> <!-- Smoke Tests -->
+  </suite> <!-- Smoke Test Suite -->
+  <suite started-at="2026-10-08T23:23:38 IST" name="Integration Test Suite" finished-at="2026-10-08T23:24:31 IST" duration-ms="52540">
+    <groups>
+      <group name="Pos">
+        <method signature="CartCheckoutIntegration_Test.cartCheckoutIntegration_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.CartCheckoutIntegration_Test@6989da5e]" name="cartCheckoutIntegration_Test" class="ecom.SwagLabs.Cart.CartCheckoutIntegration_Test"/>
+        <method signature="LoginProductCartIntegration_Test.loginProductCartIntegration_Test()[pri:0, instance:ecom.SwagLabs.Cart.LoginProductCartIntegration_Test@5aa9e4eb]" name="loginProductCartIntegration_Test" class="ecom.SwagLabs.Cart.LoginProductCartIntegration_Test"/>
+        <method signature="ProductSortingCartIntegration_Test.productSortingCartIntegration_Test()[pri:0, instance:ecom.SwagLabs.Product.ProductSortingCartIntegration_Test@10683d9d]" name="productSortingCartIntegration_Test" class="ecom.SwagLabs.Product.ProductSortingCartIntegration_Test"/>
+        <method signature="ProductSortingCartIntegration_Test1.productSortingCartIntegration_Test()[pri:0, instance:ecom.SwagLabs.Product.ProductSortingCartIntegration_Test1@3fc2959f]" name="productSortingCartIntegration_Test" class="ecom.SwagLabs.Product.ProductSortingCartIntegration_Test1"/>
+        <method signature="UserOptionsLoginIntegration_Test.userOptionsLoginIntegration_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsLoginIntegration_Test@139982de]" name="userOptionsLoginIntegration_Test" class="ecom.SwagLabs.UserOptions.UserOptionsLoginIntegration_Test"/>
+        <method signature="UserOptionsProductCart_Test.userOptionsProductCart_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsProductCart_Test@385c9627]" name="userOptionsProductCart_Test" class="ecom.SwagLabs.UserOptions.UserOptionsProductCart_Test"/>
+      </group> <!-- Pos -->
+      <group name="IT">
+        <method signature="CartCheckoutIntegration_Test.cartCheckoutIntegration_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.CartCheckoutIntegration_Test@6989da5e]" name="cartCheckoutIntegration_Test" class="ecom.SwagLabs.Cart.CartCheckoutIntegration_Test"/>
+        <method signature="LoginProductCartIntegration_Test.loginProductCartIntegration_Test()[pri:0, instance:ecom.SwagLabs.Cart.LoginProductCartIntegration_Test@5aa9e4eb]" name="loginProductCartIntegration_Test" class="ecom.SwagLabs.Cart.LoginProductCartIntegration_Test"/>
+        <method signature="ProductSortingCartIntegration_Test.productSortingCartIntegration_Test()[pri:0, instance:ecom.SwagLabs.Product.ProductSortingCartIntegration_Test@10683d9d]" name="productSortingCartIntegration_Test" class="ecom.SwagLabs.Product.ProductSortingCartIntegration_Test"/>
+        <method signature="ProductSortingCartIntegration_Test1.productSortingCartIntegration_Test()[pri:0, instance:ecom.SwagLabs.Product.ProductSortingCartIntegration_Test1@3fc2959f]" name="productSortingCartIntegration_Test" class="ecom.SwagLabs.Product.ProductSortingCartIntegration_Test1"/>
+        <method signature="UserOptionsLoginIntegration_Test.userOptionsLoginIntegration_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsLoginIntegration_Test@139982de]" name="userOptionsLoginIntegration_Test" class="ecom.SwagLabs.UserOptions.UserOptionsLoginIntegration_Test"/>
+        <method signature="UserOptionsProductCart_Test.userOptionsProductCart_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsProductCart_Test@385c9627]" name="userOptionsProductCart_Test" class="ecom.SwagLabs.UserOptions.UserOptionsProductCart_Test"/>
+      </group> <!-- IT -->
+    </groups>
+    <test started-at="2026-10-08T23:23:38 IST" name="Integration Tests" finished-at="2026-10-08T23:24:31 IST" duration-ms="52540">
+      <class name="ecom.SwagLabs.Product.ProductSortingCartIntegration_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductSortingCartIntegration_Test@10683d9d]" started-at="2026-10-08T23:23:38 IST" name="launchBrowser" finished-at="2026-10-08T23:23:49 IST" duration-ms="11026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="productSortingCartIntegration_Test()[pri:0, instance:ecom.SwagLabs.Product.ProductSortingCartIntegration_Test@10683d9d]" started-at="2026-10-08T23:23:50 IST" name="productSortingCartIntegration_Test" finished-at="2026-10-08T23:23:51 IST" duration-ms="1572" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Products sorted by price from low to high]]>
+            </line>
+            <line>
+              <![CDATA[Product successfully added to cart after sorting]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productSortingCartIntegration_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Product.ProductSortingCartIntegration_Test@10683d9d]" started-at="2026-10-08T23:23:51 IST" name="closeBrowser" finished-at="2026-10-08T23:23:51 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Product.ProductSortingCartIntegration_Test -->
+      <class name="ecom.SwagLabs.Cart.LoginProductCartIntegration_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.LoginProductCartIntegration_Test@5aa9e4eb]" started-at="2026-10-08T23:24:00 IST" name="launchBrowser" finished-at="2026-10-08T23:24:08 IST" duration-ms="7766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginProductCartIntegration_Test()[pri:0, instance:ecom.SwagLabs.Cart.LoginProductCartIntegration_Test@5aa9e4eb]" started-at="2026-10-08T23:24:08 IST" name="loginProductCartIntegration_Test" finished-at="2026-10-08T23:24:09 IST" duration-ms="1056" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User successfully navigated from login to product and cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginProductCartIntegration_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Cart.LoginProductCartIntegration_Test@5aa9e4eb]" started-at="2026-10-08T23:24:09 IST" name="closeBrowser" finished-at="2026-10-08T23:24:09 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Cart.LoginProductCartIntegration_Test -->
+      <class name="ecom.SwagLabs.UserOptions.UserOptionsLoginIntegration_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsLoginIntegration_Test@139982de]" started-at="2026-10-08T23:24:25 IST" name="launchBrowser" finished-at="2026-10-08T23:24:29 IST" duration-ms="3755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="userOptionsLoginIntegration_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsLoginIntegration_Test@139982de]" started-at="2026-10-08T23:24:29 IST" name="userOptionsLoginIntegration_Test" finished-at="2026-10-08T23:24:31 IST" duration-ms="1816" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User successfully logged out]]>
+            </line>
+            <line>
+              <![CDATA[User successfully logged in again]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userOptionsLoginIntegration_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsLoginIntegration_Test@139982de]" started-at="2026-10-08T23:24:31 IST" name="closeBrowser" finished-at="2026-10-08T23:24:31 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.UserOptions.UserOptionsLoginIntegration_Test -->
+      <class name="ecom.SwagLabs.UserOptions.UserOptionsProductCart_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsProductCart_Test@385c9627]" started-at="2026-10-08T23:24:17 IST" name="launchBrowser" finished-at="2026-10-08T23:24:23 IST" duration-ms="5706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="userOptionsProductCart_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsProductCart_Test@385c9627]" started-at="2026-10-08T23:24:23 IST" name="userOptionsProductCart_Test" finished-at="2026-10-08T23:24:25 IST" duration-ms="1570" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User successfully navigated from user options to product and cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userOptionsProductCart_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsProductCart_Test@385c9627]" started-at="2026-10-08T23:24:25 IST" name="closeBrowser" finished-at="2026-10-08T23:24:25 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.UserOptions.UserOptionsProductCart_Test -->
+      <class name="ecom.SwagLabs.Product.ProductSortingCartIntegration_Test1">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductSortingCartIntegration_Test1@3fc2959f]" started-at="2026-10-08T23:23:51 IST" name="launchBrowser" finished-at="2026-10-08T23:23:58 IST" duration-ms="6770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="productSortingCartIntegration_Test()[pri:0, instance:ecom.SwagLabs.Product.ProductSortingCartIntegration_Test1@3fc2959f]" started-at="2026-10-08T23:23:58 IST" name="productSortingCartIntegration_Test" finished-at="2026-10-08T23:24:00 IST" duration-ms="1476" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Products sorted by name from Z to A]]>
+            </line>
+            <line>
+              <![CDATA[Product successfully added to cart after sorting]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productSortingCartIntegration_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Product.ProductSortingCartIntegration_Test1@3fc2959f]" started-at="2026-10-08T23:24:00 IST" name="closeBrowser" finished-at="2026-10-08T23:24:00 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Product.ProductSortingCartIntegration_Test1 -->
+      <class name="ecom.SwagLabs.Cart.CartCheckoutIntegration_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.CartCheckoutIntegration_Test@6989da5e]" started-at="2026-10-08T23:24:09 IST" name="launchBrowser" finished-at="2026-10-08T23:24:15 IST" duration-ms="5917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="cartCheckoutIntegration_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.CartCheckoutIntegration_Test@6989da5e]" started-at="2026-10-08T23:24:15 IST" name="cartCheckoutIntegration_Test" data-provider="checkoutData" finished-at="2026-10-08T23:24:17 IST" duration-ms="1929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shashi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[583101]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User successfully navigated from cart to checkout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cartCheckoutIntegration_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Cart.CartCheckoutIntegration_Test@6989da5e]" started-at="2026-10-08T23:24:17 IST" name="closeBrowser" finished-at="2026-10-08T23:24:17 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Cart.CartCheckoutIntegration_Test -->
+    </test> <!-- Integration Tests -->
+  </suite> <!-- Integration Test Suite -->
+  <suite started-at="2026-10-08T23:22:33 IST" name="Functional Test Suite" finished-at="2026-10-08T23:23:12 IST" duration-ms="38665">
+    <groups>
+      <group name="Pos">
+        <method signature="AddProductToCart_Test.addProductToCart_Test()[pri:0, instance:ecom.SwagLabs.Cart.AddProductToCart_Test@6c6cb480]" name="addProductToCart_Test" class="ecom.SwagLabs.Cart.AddProductToCart_Test"/>
+        <method signature="EnterCheckoutDetails_Test.enterCheckoutDetails_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.EnterCheckoutDetails_Test@3c46e67a]" name="enterCheckoutDetails_Test" class="ecom.SwagLabs.Cart.EnterCheckoutDetails_Test"/>
+        <method signature="ProductSortingPrice_Test.productSortingPrice_Test(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductSortingPrice_Test@408d971b]" name="productSortingPrice_Test" class="ecom.SwagLabs.Product.ProductSortingPrice_Test"/>
+        <method signature="ProductSorting_Test.productSorting_Test(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductSorting_Test@557caf28]" name="productSorting_Test" class="ecom.SwagLabs.Product.ProductSorting_Test"/>
+        <method signature="AboutOption_Test.aboutOption_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.AboutOption_Test@c730b35]" name="aboutOption_Test" class="ecom.SwagLabs.UserOptions.AboutOption_Test"/>
+        <method signature="LogoutOption_Test.logoutOption_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.LogoutOption_Test@206a70ef]" name="logoutOption_Test" class="ecom.SwagLabs.UserOptions.LogoutOption_Test"/>
+      </group> <!-- Pos -->
+      <group name="Nev">
+        <method signature="UserLoginWithInvalidUsername_Test.userLoginWithInvalidUsername_Test(java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Login.UserLoginWithInvalidUsername_Test@75d4a5c2]" name="userLoginWithInvalidUsername_Test" class="ecom.SwagLabs.Login.UserLoginWithInvalidUsername_Test"/>
+      </group> <!-- Nev -->
+      <group name="FT">
+        <method signature="AddProductToCart_Test.addProductToCart_Test()[pri:0, instance:ecom.SwagLabs.Cart.AddProductToCart_Test@6c6cb480]" name="addProductToCart_Test" class="ecom.SwagLabs.Cart.AddProductToCart_Test"/>
+        <method signature="EnterCheckoutDetails_Test.enterCheckoutDetails_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.EnterCheckoutDetails_Test@3c46e67a]" name="enterCheckoutDetails_Test" class="ecom.SwagLabs.Cart.EnterCheckoutDetails_Test"/>
+        <method signature="UserLoginWithInvalidUsername_Test.userLoginWithInvalidUsername_Test(java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Login.UserLoginWithInvalidUsername_Test@75d4a5c2]" name="userLoginWithInvalidUsername_Test" class="ecom.SwagLabs.Login.UserLoginWithInvalidUsername_Test"/>
+        <method signature="ProductSortingPrice_Test.productSortingPrice_Test(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductSortingPrice_Test@408d971b]" name="productSortingPrice_Test" class="ecom.SwagLabs.Product.ProductSortingPrice_Test"/>
+        <method signature="ProductSorting_Test.productSorting_Test(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductSorting_Test@557caf28]" name="productSorting_Test" class="ecom.SwagLabs.Product.ProductSorting_Test"/>
+        <method signature="AboutOption_Test.aboutOption_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.AboutOption_Test@c730b35]" name="aboutOption_Test" class="ecom.SwagLabs.UserOptions.AboutOption_Test"/>
+        <method signature="LogoutOption_Test.logoutOption_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.LogoutOption_Test@206a70ef]" name="logoutOption_Test" class="ecom.SwagLabs.UserOptions.LogoutOption_Test"/>
+      </group> <!-- FT -->
+    </groups>
+    <test started-at="2026-10-08T23:22:33 IST" name="Functional Tests" finished-at="2026-10-08T23:23:12 IST" duration-ms="38665">
+      <class name="ecom.SwagLabs.UserOptions.LogoutOption_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.UserOptions.LogoutOption_Test@206a70ef]" started-at="2026-10-08T23:23:08 IST" name="launchBrowser" finished-at="2026-10-08T23:23:10 IST" duration-ms="2446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="logoutOption_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.LogoutOption_Test@206a70ef]" started-at="2026-10-08T23:23:10 IST" name="logoutOption_Test" finished-at="2026-10-08T23:23:12 IST" duration-ms="1144" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User successfully logged out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOption_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.UserOptions.LogoutOption_Test@206a70ef]" started-at="2026-10-08T23:23:12 IST" name="closeBrowser" finished-at="2026-10-08T23:23:12 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.UserOptions.LogoutOption_Test -->
+      <class name="ecom.SwagLabs.Cart.AddProductToCart_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.AddProductToCart_Test@6c6cb480]" started-at="2026-10-08T23:22:46 IST" name="launchBrowser" finished-at="2026-10-08T23:22:48 IST" duration-ms="2117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="addProductToCart_Test()[pri:0, instance:ecom.SwagLabs.Cart.AddProductToCart_Test@6c6cb480]" started-at="2026-10-08T23:22:48 IST" name="addProductToCart_Test" finished-at="2026-10-08T23:22:49 IST" duration-ms="907" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product added successfully to the cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addProductToCart_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Cart.AddProductToCart_Test@6c6cb480]" started-at="2026-10-08T23:22:49 IST" name="closeBrowser" finished-at="2026-10-08T23:22:49 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Cart.AddProductToCart_Test -->
+      <class name="ecom.SwagLabs.Product.ProductSortingPrice_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductSortingPrice_Test@408d971b]" started-at="2026-10-08T23:22:42 IST" name="launchBrowser" finished-at="2026-10-08T23:22:44 IST" duration-ms="1880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="productSortingPrice_Test(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductSortingPrice_Test@408d971b]" started-at="2026-10-08T23:22:44 IST" name="productSortingPrice_Test" data-provider="priceSortingData" finished-at="2026-10-08T23:22:45 IST" duration-ms="1051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Price (low to high)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Products sorted successfully from Price low to high]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productSortingPrice_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Product.ProductSortingPrice_Test@408d971b]" started-at="2026-10-08T23:22:45 IST" name="closeBrowser" finished-at="2026-10-08T23:22:46 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Product.ProductSortingPrice_Test -->
+      <class name="ecom.SwagLabs.UserOptions.AboutOption_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.UserOptions.AboutOption_Test@c730b35]" started-at="2026-10-08T23:22:53 IST" name="launchBrowser" finished-at="2026-10-08T23:22:55 IST" duration-ms="1878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="aboutOption_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.AboutOption_Test@c730b35]" started-at="2026-10-08T23:22:55 IST" name="aboutOption_Test" finished-at="2026-10-08T23:23:08 IST" duration-ms="12604" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User successfully accessed the About option]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aboutOption_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.UserOptions.AboutOption_Test@c730b35]" started-at="2026-10-08T23:23:08 IST" name="closeBrowser" finished-at="2026-10-08T23:23:08 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.UserOptions.AboutOption_Test -->
+      <class name="ecom.SwagLabs.Cart.EnterCheckoutDetails_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.EnterCheckoutDetails_Test@3c46e67a]" started-at="2026-10-08T23:22:49 IST" name="launchBrowser" finished-at="2026-10-08T23:22:51 IST" duration-ms="1861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="enterCheckoutDetails_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.EnterCheckoutDetails_Test@3c46e67a]" started-at="2026-10-08T23:22:51 IST" name="enterCheckoutDetails_Test" data-provider="checkoutData" finished-at="2026-10-08T23:22:53 IST" duration-ms="1805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shashi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[583101]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Required checkout details entered successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterCheckoutDetails_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Cart.EnterCheckoutDetails_Test@3c46e67a]" started-at="2026-10-08T23:22:53 IST" name="closeBrowser" finished-at="2026-10-08T23:22:53 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Cart.EnterCheckoutDetails_Test -->
+      <class name="ecom.SwagLabs.Product.ProductSorting_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductSorting_Test@557caf28]" started-at="2026-10-08T23:22:36 IST" name="launchBrowser" finished-at="2026-10-08T23:22:38 IST" duration-ms="2268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="productSorting_Test(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductSorting_Test@557caf28]" started-at="2026-10-08T23:22:38 IST" name="productSorting_Test" data-provider="productSortingData" finished-at="2026-10-08T23:22:39 IST" duration-ms="1031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name (A to Z)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Products sorted successfully using: Name (A to Z)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productSorting_Test -->
+        <test-method signature="productSorting_Test(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductSorting_Test@557caf28]" started-at="2026-10-08T23:22:39 IST" name="productSorting_Test" data-provider="productSortingData" finished-at="2026-10-08T23:22:40 IST" duration-ms="891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name (Z to A)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Products sorted successfully using: Name (Z to A)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productSorting_Test -->
+        <test-method signature="productSorting_Test(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductSorting_Test@557caf28]" started-at="2026-10-08T23:22:40 IST" name="productSorting_Test" data-provider="productSortingData" finished-at="2026-10-08T23:22:41 IST" duration-ms="847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Price (low to high)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Products sorted successfully using: Price (low to high)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productSorting_Test -->
+        <test-method signature="productSorting_Test(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductSorting_Test@557caf28]" started-at="2026-10-08T23:22:41 IST" name="productSorting_Test" data-provider="productSortingData" finished-at="2026-10-08T23:22:42 IST" duration-ms="854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Price (high to low)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Products sorted successfully using: Price (high to low)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productSorting_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Product.ProductSorting_Test@557caf28]" started-at="2026-10-08T23:22:42 IST" name="closeBrowser" finished-at="2026-10-08T23:22:42 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Product.ProductSorting_Test -->
+      <class name="ecom.SwagLabs.Login.UserLoginWithInvalidUsername_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Login.UserLoginWithInvalidUsername_Test@75d4a5c2]" started-at="2026-10-08T23:22:33 IST" name="launchBrowser" finished-at="2026-10-08T23:22:35 IST" duration-ms="1801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="userLoginWithInvalidUsername_Test(java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Login.UserLoginWithInvalidUsername_Test@75d4a5c2]" started-at="2026-10-08T23:22:35 IST" name="userLoginWithInvalidUsername_Test" data-provider="invalidLoginData" finished-at="2026-10-08T23:22:36 IST" duration-ms="591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ase]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User didn't logged in with invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userLoginWithInvalidUsername_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Login.UserLoginWithInvalidUsername_Test@75d4a5c2]" started-at="2026-10-08T23:22:36 IST" name="closeBrowser" finished-at="2026-10-08T23:22:36 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Login.UserLoginWithInvalidUsername_Test -->
+    </test> <!-- Functional Tests -->
+  </suite> <!-- Functional Test Suite -->
+  <suite started-at="2026-10-08T23:23:12 IST" name="System Test Suite" finished-at="2026-10-08T23:23:38 IST" duration-ms="26454">
+    <groups>
+      <group name="ST">
+        <method signature="CompletePurchaseFlow_Test.completePurchaseFlow_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.CompletePurchaseFlow_Test@4c402120]" name="completePurchaseFlow_Test" class="ecom.SwagLabs.Cart.CompletePurchaseFlow_Test"/>
+        <method signature="OrderConfirmation_Test.orderConfirmation_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.OrderConfirmation_Test@327514f]" name="orderConfirmation_Test" class="ecom.SwagLabs.Cart.OrderConfirmation_Test"/>
+        <method signature="ProductLoginAndSort_Test.productLoginAndSort_Test()[pri:0, instance:ecom.SwagLabs.Product.ProductLoginAndSort_Test@22ff4249]" name="productLoginAndSort_Test" class="ecom.SwagLabs.Product.ProductLoginAndSort_Test"/>
+        <method signature="ProductShoppingFlow_Test.productShoppingFlow_Test()[pri:0, instance:ecom.SwagLabs.Product.ProductShoppingFlow_Test@2d1ef81a]" name="productShoppingFlow_Test" class="ecom.SwagLabs.Product.ProductShoppingFlow_Test"/>
+        <method signature="AllItemsNavigation_Test.allItemsNavigation_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.AllItemsNavigation_Test@1165b38]" name="allItemsNavigation_Test" class="ecom.SwagLabs.UserOptions.AllItemsNavigation_Test"/>
+        <method signature="UserOptionsNavigation_Test.userOptionsNavigation_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsNavigation_Test@5b12b668]" name="userOptionsNavigation_Test" class="ecom.SwagLabs.UserOptions.UserOptionsNavigation_Test"/>
+      </group> <!-- ST -->
+      <group name="Pos">
+        <method signature="CompletePurchaseFlow_Test.completePurchaseFlow_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.CompletePurchaseFlow_Test@4c402120]" name="completePurchaseFlow_Test" class="ecom.SwagLabs.Cart.CompletePurchaseFlow_Test"/>
+        <method signature="OrderConfirmation_Test.orderConfirmation_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.OrderConfirmation_Test@327514f]" name="orderConfirmation_Test" class="ecom.SwagLabs.Cart.OrderConfirmation_Test"/>
+        <method signature="ProductLoginAndSort_Test.productLoginAndSort_Test()[pri:0, instance:ecom.SwagLabs.Product.ProductLoginAndSort_Test@22ff4249]" name="productLoginAndSort_Test" class="ecom.SwagLabs.Product.ProductLoginAndSort_Test"/>
+        <method signature="ProductShoppingFlow_Test.productShoppingFlow_Test()[pri:0, instance:ecom.SwagLabs.Product.ProductShoppingFlow_Test@2d1ef81a]" name="productShoppingFlow_Test" class="ecom.SwagLabs.Product.ProductShoppingFlow_Test"/>
+        <method signature="AllItemsNavigation_Test.allItemsNavigation_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.AllItemsNavigation_Test@1165b38]" name="allItemsNavigation_Test" class="ecom.SwagLabs.UserOptions.AllItemsNavigation_Test"/>
+        <method signature="UserOptionsNavigation_Test.userOptionsNavigation_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsNavigation_Test@5b12b668]" name="userOptionsNavigation_Test" class="ecom.SwagLabs.UserOptions.UserOptionsNavigation_Test"/>
+      </group> <!-- Pos -->
+    </groups>
+    <test started-at="2026-10-08T23:23:12 IST" name="System Tests" finished-at="2026-10-08T23:23:38 IST" duration-ms="26454">
+      <class name="ecom.SwagLabs.Product.ProductLoginAndSort_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductLoginAndSort_Test@22ff4249]" started-at="2026-10-08T23:23:12 IST" name="launchBrowser" finished-at="2026-10-08T23:23:14 IST" duration-ms="1991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="productLoginAndSort_Test()[pri:0, instance:ecom.SwagLabs.Product.ProductLoginAndSort_Test@22ff4249]" started-at="2026-10-08T23:23:14 IST" name="productLoginAndSort_Test" finished-at="2026-10-08T23:23:15 IST" duration-ms="1051" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in and product page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[User successfully viewed products and sorted them]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productLoginAndSort_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Product.ProductLoginAndSort_Test@22ff4249]" started-at="2026-10-08T23:23:15 IST" name="closeBrowser" finished-at="2026-10-08T23:23:15 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Product.ProductLoginAndSort_Test -->
+      <class name="ecom.SwagLabs.UserOptions.UserOptionsNavigation_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsNavigation_Test@5b12b668]" started-at="2026-10-08T23:23:27 IST" name="launchBrowser" finished-at="2026-10-08T23:23:30 IST" duration-ms="2565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="userOptionsNavigation_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsNavigation_Test@5b12b668]" started-at="2026-10-08T23:23:30 IST" name="userOptionsNavigation_Test" finished-at="2026-10-08T23:23:31 IST" duration-ms="1004" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User successfully logged in]]>
+            </line>
+            <line>
+              <![CDATA[User successfully navigated to user options menu]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userOptionsNavigation_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.UserOptions.UserOptionsNavigation_Test@5b12b668]" started-at="2026-10-08T23:23:31 IST" name="closeBrowser" finished-at="2026-10-08T23:23:31 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.UserOptions.UserOptionsNavigation_Test -->
+      <class name="ecom.SwagLabs.UserOptions.AllItemsNavigation_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.UserOptions.AllItemsNavigation_Test@1165b38]" started-at="2026-10-08T23:23:31 IST" name="launchBrowser" finished-at="2026-10-08T23:23:37 IST" duration-ms="5264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="allItemsNavigation_Test()[pri:0, instance:ecom.SwagLabs.UserOptions.AllItemsNavigation_Test@1165b38]" started-at="2026-10-08T23:23:37 IST" name="allItemsNavigation_Test" finished-at="2026-10-08T23:23:38 IST" duration-ms="1211" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User successfully navigated to All Items page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- allItemsNavigation_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.UserOptions.AllItemsNavigation_Test@1165b38]" started-at="2026-10-08T23:23:38 IST" name="closeBrowser" finished-at="2026-10-08T23:23:38 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.UserOptions.AllItemsNavigation_Test -->
+      <class name="ecom.SwagLabs.Cart.OrderConfirmation_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.OrderConfirmation_Test@327514f]" started-at="2026-10-08T23:23:23 IST" name="launchBrowser" finished-at="2026-10-08T23:23:25 IST" duration-ms="2287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="orderConfirmation_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.OrderConfirmation_Test@327514f]" started-at="2026-10-08T23:23:25 IST" name="orderConfirmation_Test" data-provider="checkoutData" finished-at="2026-10-08T23:23:27 IST" duration-ms="1865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shashi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[583101]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Order placed successfully and confirmation message is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- orderConfirmation_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Cart.OrderConfirmation_Test@327514f]" started-at="2026-10-08T23:23:27 IST" name="closeBrowser" finished-at="2026-10-08T23:23:27 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Cart.OrderConfirmation_Test -->
+      <class name="ecom.SwagLabs.Cart.CompletePurchaseFlow_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.CompletePurchaseFlow_Test@4c402120]" started-at="2026-10-08T23:23:19 IST" name="launchBrowser" finished-at="2026-10-08T23:23:21 IST" duration-ms="2006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="completePurchaseFlow_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.SwagLabs.Cart.CompletePurchaseFlow_Test@4c402120]" started-at="2026-10-08T23:23:21 IST" name="completePurchaseFlow_Test" data-provider="checkoutData" finished-at="2026-10-08T23:23:23 IST" duration-ms="1752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shashi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[583101]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Complete purchase flow reached checkout overview successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- completePurchaseFlow_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Cart.CompletePurchaseFlow_Test@4c402120]" started-at="2026-10-08T23:23:23 IST" name="closeBrowser" finished-at="2026-10-08T23:23:23 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Cart.CompletePurchaseFlow_Test -->
+      <class name="ecom.SwagLabs.Product.ProductShoppingFlow_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom.SwagLabs.Product.ProductShoppingFlow_Test@2d1ef81a]" started-at="2026-10-08T23:23:15 IST" name="launchBrowser" finished-at="2026-10-08T23:23:18 IST" duration-ms="2195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="productShoppingFlow_Test()[pri:0, instance:ecom.SwagLabs.Product.ProductShoppingFlow_Test@2d1ef81a]" started-at="2026-10-08T23:23:18 IST" name="productShoppingFlow_Test" finished-at="2026-10-08T23:23:19 IST" duration-ms="1004" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product catalog is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Product added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Product catalog works correctly with shopping flow]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productShoppingFlow_Test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom.SwagLabs.Product.ProductShoppingFlow_Test@2d1ef81a]" started-at="2026-10-08T23:23:19 IST" name="closeBrowser" finished-at="2026-10-08T23:23:19 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom.SwagLabs.Product.ProductShoppingFlow_Test -->
+    </test> <!-- System Tests -->
+  </suite> <!-- System Test Suite -->
+</testng-results>

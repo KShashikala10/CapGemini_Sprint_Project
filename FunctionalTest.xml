@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM
+        "https://testng.org/testng-1.0.dtd">
+
+<suite name="Functional Test Suite">
+
+    <listeners>
+        <listener class-name="ecom.SwagLabs.genericUtility.ScreenshotListener"/>
+    </listeners>
+
+    <test name="Functional Tests">
+
+        <groups>
+            <run>
+                <include name="FT"/>
+            </run>
+        </groups>
+
+        <classes>
+
+            <class name="ecom.SwagLabs.Login.UserLoginWithInvalidUsername_Test"/>
+
+           
+            <class name="ecom.SwagLabs.Product.UnauthorizedProductAccess_Test"/>
+
+            <class name="ecom.SwagLabs.Cart.AddProductToCart_Test"/>
+            <class name="ecom.SwagLabs.Cart.BlankCheckoutDetails_Test"/>
+            <class name="ecom.SwagLabs.Cart.EnterCheckoutDetails_Test"/>
+            <class name="ecom.SwagLabs.Cart.RemoveProductFromCart_Test"/>
+            
+
+            <class name="ecom.SwagLabs.UserOptions.LogoutOption_Test"/>
+
+        </classes>
+
+    </test>
+
+</suite>

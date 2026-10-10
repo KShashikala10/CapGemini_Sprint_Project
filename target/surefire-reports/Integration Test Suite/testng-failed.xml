@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Integration Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Integration Tests(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="IT"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ecom.SwagLabs.Cart.CartCheckoutIntegration_Test">
+        <methods>
+          <include name="cartCheckoutIntegration_Test"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- ecom.SwagLabs.Cart.CartCheckoutIntegration_Test -->
+      <class name="ecom.SwagLabs.Cart.LoginProductCartIntegration_Test">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="loginProductCartIntegration_Test"/>
+        </methods>
+      </class> <!-- ecom.SwagLabs.Cart.LoginProductCartIntegration_Test -->
+    </classes>
+  </test> <!-- Integration Tests(failed) -->
+</suite> <!-- Failed suite [Integration Test Suite] -->

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run> 
+<include name="FT" ></include>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      
+
+      
+      <class name="ecom.SwagLabs.UserOptions.LogoutOption_Test"/>
+     
+     
+      <class name="ecom.SwagLabs.Product.ProductPageOpen_Test"/>
+      <class name="ecom.SwagLabs.Cart.OrderConfirmation_Test"/>
+     
+      <class name="ecom.SwagLabs.UserOptions.UserOptionsNavigation_Test"/>
+      <class name="ecom.SwagLabs.Cart.BlankCheckoutDetails_Test"/>
+      <class name="ecom.SwagLabs.Product.UnauthorizedProductAccess_Test"/>
+      <class name="ecom.SwagLabs.Cart.EnterCheckoutDetails_Test"/>
+      <class name="ecom.SwagLabs.Product.ProductSortingPrice_Test"/>
+      <class name="ecom.SwagLabs.Cart.CompletePurchaseFlow_Test"/>
+      <class name="ecom.SwagLabs.Product.ProductSorting_Test"/>
+     
+      <class name="ecom.SwagLabs.Login.UserLoginWithValidCredentials_Test"/>
+      <class name="ecom.SwagLabs.Cart.CartCheckoutIntegration_Test"/>
+      <class name="ecom.SwagLabs.Login.UserLoginWithInvalidUsername_Test"/>
+      <class name="ecom.SwagLabs.UserOptions.UnauthorizedUserOptions_Test"/>
+      <class name="ecom.SwagLabs.Product.ProductShoppingFlow_Test"/>
+
+      <class name="ecom.SwagLabs.UserOptions.AllItemsNavigation_Test"/>
+  
+      <class name="ecom.SwagLabs.UserOptions.UserOptionsDisplayed_Test"/>
+      <class name="ecom.SwagLabs.Cart.AddProductToCart_Test"/>
+
+      <class name="ecom.SwagLabs.UserOptions.OpenUserOptions_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

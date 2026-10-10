@@ -1,0 +1,168 @@
+<html>
+<head>
+<title>TestNG:  Smoke Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Smoke Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 08 23:22:07 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>26 seconds (26064 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>SmT </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecom.SwagLabs.Cart.OpenCart_Test.openCart_Test()'><b>openCart_Test</b><br>Test class: ecom.SwagLabs.Cart.OpenCart_Test<br/>
+<a href="#Output-1639958975" onClick='toggleBox("Output-1639958975", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1639958975" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1639958975">
+User successfully opened the cart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.SwagLabs.Cart.OpenCart_Test@4550bb58</td></tr>
+<tr>
+<td title='ecom.SwagLabs.Cart.SelectProduct_Test.selectProduct_Test()'><b>selectProduct_Test</b><br>Test class: ecom.SwagLabs.Cart.SelectProduct_Test<br/>
+<a href="#Output-230991505" onClick='toggleBox("Output-230991505", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-230991505" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-230991505">
+User successfully selected a product<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.SwagLabs.Cart.SelectProduct_Test@6adbc9d</td></tr>
+<tr>
+<td title='ecom.SwagLabs.Login.UserLoginWithValidCredentials_Test.userLoginWithValidCredentials_Test()'><b>userLoginWithValidCredentials_Test</b><br>Test class: ecom.SwagLabs.Login.UserLoginWithValidCredentials_Test<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-321772459" onClick='toggleBox("Output-321772459", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-321772459" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-321772459">
+User logged in successfully with valid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.SwagLabs.Login.UserLoginWithValidCredentials_Test@77847718</td></tr>
+<tr>
+<td title='ecom.SwagLabs.UserOptions.UserOptionsDisplayed_Test.userOptionsDisplayed_Test()'><b>userOptionsDisplayed_Test</b><br>Test class: ecom.SwagLabs.UserOptions.UserOptionsDisplayed_Test<br/>
+<a href="#Output-1572557043" onClick='toggleBox("Output-1572557043", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1572557043" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1572557043">
+User options are displayed correctly<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.SwagLabs.UserOptions.UserOptionsDisplayed_Test@223191a6</td></tr>
+<tr>
+<td title='ecom.SwagLabs.Product.ProductSortingOption_Test.productSortingOption_Test()'><b>productSortingOption_Test</b><br>Test class: ecom.SwagLabs.Product.ProductSortingOption_Test<br/>
+<a href="#Output-1274225913" onClick='toggleBox("Output-1274225913", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1274225913" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1274225913">
+Sorting option selected: Name (A to Z)<br/>
+Sorting option selected: Name (Z to A)<br/>
+Sorting option selected: Price (low to high)<br/>
+Sorting option selected: Price (high to low)<br/>
+All sorting options are available and selected successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.SwagLabs.Product.ProductSortingOption_Test@c8c12ac</td></tr>
+<tr>
+<td title='ecom.SwagLabs.Product.ProductPageOpen_Test.productPageOpen_Test()'><b>productPageOpen_Test</b><br>Test class: ecom.SwagLabs.Product.ProductPageOpen_Test<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-1693997031" onClick='toggleBox("Output-1693997031", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1693997031" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1693997031">
+Product page opened successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.SwagLabs.Product.ProductPageOpen_Test@1623b78d</td></tr>
+<tr>
+<td title='ecom.SwagLabs.UserOptions.OpenUserOptions_Test.openUserOptions_Test()'><b>openUserOptions_Test</b><br>Test class: ecom.SwagLabs.UserOptions.OpenUserOptions_Test<br/>
+<a href="#Output-1329572464" onClick='toggleBox("Output-1329572464", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1329572464" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1329572464">
+User options menu opened successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.SwagLabs.UserOptions.OpenUserOptions_Test@4ec4f3a0</td></tr>
+</table><p>
+</body>
+</html>
